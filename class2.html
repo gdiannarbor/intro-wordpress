@@ -38,10 +38,10 @@
           <h3>Welcome back!</h3>
           <h4 class="blue">This evening you will...</h4>
           <ul class="box--small list--tall copy--small">
-            <li>Build out your site with pages and posts</li>
             <li>Learn about the remaining admin menu items</li>
             <li>Learn about Plugins and how to find, install and activate them</li>
             <li>Learn about Themes and how to find, install, preview and activate them</li>
+            <li>Learn about keep Wordpress secure</li>
             <li>Learn about further options for customizing WordPress</li>
             <li>End with resources, questions, one-and-one help and wrap-up</li>
           </ul>
@@ -57,7 +57,7 @@
           </ul>
         </section>
 
-        <section>
+        <!-- <section>
           <h3>Adding Content</h3>
           <h4 class="blue">Posts</h4>
 
@@ -159,7 +159,7 @@
             <li><strong>Contributor:</strong> ability to write and manage their own posts but cannot publish them</li>
             <li><strong>Subscriber:</strong> ability to only manage their profile</li>
           </ul>
-        </section>
+        </section> -->
 
         <section>
           <h3>What are Plugins?</h3>
@@ -362,6 +362,66 @@
         </section>
 
         <section>
+          <h3>Security</h3>
+          <h4 class="blue">Being popular means you're a target</h4>
+          <p class="copy--small box--small">
+            It is important to take security seriously when running a site that uses a CMS.
+          </p>
+        </section>
+
+
+        <section>
+          <h3>Security</h3>
+          <h4 class="blue">During install</h4>
+          <ul class="box--small list--tall copy--small">
+            <li>Choose a good host</li>
+            <li>Make your database table prefix unique. Don't use "wp_" or "wordpress_"</li>
+            <li>Create a new database user, don't use the default</li>
+            <li>Make your database user password strong.</li>
+            <li><strong>Do not use "admin" as a username.</strong> "admin" used to be the default WordPress username. Use a unique username and a very strong Password</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Security</h3>
+          <h4 class="blue">Ater install: WordPress hardening</h4>
+          <ul class="box--small list--tall copy--small">
+            <li>Take some <a href="http://codex.wordpress.org/Hardening_WordPress" target="_blank">code-level and sysadmin steps</a> to "harden" WordPress</li>
+              <ul class="box--small list--tall copy--small">
+                <li>Securing wp-includes</li>
+                <li>Securing wp-config.php</li>
+                <li>Disable File Editing</li>
+                <li>And more</li>
+              </ul>
+            <li>Or use a <a href="http://wordpress.org/plugins/sucuri-scanner/" target="_blank">security plugin</a> like Sucuri that performs "1-click hardening"</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Security</h3>
+          <h4 class="blue">After your site's live: Monitoring and protection</h4>
+          <ul class="box--small list--tall copy--small">
+            <li><strong>Keep WordPress core, themes and plugins updated!</strong></li>
+            <li>Use a security plugin</li>
+            <li>Use a service that scans and your site daily for malware</li>
+            <li>Use a firewall service that shields your site from hackers and malware. Some hosts, like WPEngine.com, have this built into their hosting service</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Security</h3>
+          <h4 class="blue">If you do get hacked</h4>
+          <ul class="box--small list--tall copy--small">
+            <li>Use a malware removal service.</li>
+              <ul class="box--small list--tall copy--small">
+                <li><strong><a href="http://sucuri.net/" target="_blank">Sucuri.net</a></strong> Reasonably priced WordPress security experts</li>
+                <li><strong><a href="http://WPEngine.com/" target="_blank">WPEngine.com</a></strong> WordPress hosting that includes malware cleanup if needed</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
         <h3>Deploying Your Site</h3>
         <p class="box--small copy--small">Once your local site is to a point where you're ready to deploy it to a live webserver, you'll need the following tools:</p>
         <div class="box--small">
@@ -375,6 +435,88 @@
 
         <p class="box--small copy--small">Once you have those, you can follow this <a href="http://premium.wpmudev.org/blog/guide-to-migrating-localhost-wordpress-to-live-site" target="_blank">WPMUDev tutorial</a> to deploy your site to a live webserver.</p>
       </section>
+
+      <section>
+          <h3>Development on a Remote Host</h3>
+          <p>This class has covered local development, but you can also use a remote host.</p>
+          <ul>
+            <li>Via cPanel</li>
+            <li>Via FTP ("manual install")</li>
+          </ul>
+      </section>
+
+      <section>
+          <h3>Installing WordPress</h3>
+          <h4 class="blue">What WordPress needs to run on a remote host</h4>
+          <ul class="box--small list--tall copy--small">
+            <li>A hosting account running PHP version 5.2.4 or greater (recommended: PHP 5.4 or greater) and MySQL version 5.0 or greater (recommended: MySQL 5.5 or greater) </li>
+            <li>Software from WordPress.org or an install feature through a hosting account control panel</li>
+            <li>A domain name (or temporary URL provided by your host)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Installing WordPress</h3>
+          <h4 class="blue">What Is Needed For a Control Panel Install</h4>
+          <ul class="box--small list--tall copy--small">
+            <li>Web host needs to offer it</li>
+            <li>Access to your hosting control panel</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Control Panel Install</h3>
+          <h4 class="blue">Example: InMotionHosting with Cpanel</h4>
+          <p class="copy--small box--small">
+            <img src="images/cpanel1.jpg" alt="">
+          </p>
+        </section>
+
+        <section>
+          <h3>Control Panel Install</h3>
+          <h4 class="blue">Example: InMotionHosting with Cpanel</h4>
+          <p class="copy--small box--small">
+            <img src="images/cpanel2.jpg" alt="">
+          </p>
+        </section>
+
+        <section>
+          <h3>Control Panel Install</h3>
+          <h4 class="blue">Example: InMotionHosting with Cpanel</h4>
+          <p class="copy--small box--small">
+            <img src="images/cpanel3.jpg" alt="">
+          </p>
+        </section>
+
+        <section>
+          <h3>Installing WordPress</h3>
+          <h4 class="blue">What Is Needed For a Manual Install</h4>
+          <ul class="box--small list--tall copy--small">
+            <li>Access to your hosting control panel to create a database and database user</li>
+            <li>A SFTP Program. SFTP (or FTP) is the method used to upload and download files between a computer and a hosting account</li>
+            <li>A Web browser. Installation is performed step-by-step on a web browser</li>
+          </ul>
+        </section>
+
+
+        <section>
+          <h3>Manual Install</h3>
+
+          <h4 class="blue">Upload WordPress software via SFTP to your hosting account</h4>
+          <p class="copy--small box--small">
+            <img src="images/manual1.jpg" alt="">
+          </p>
+        </section>
+
+
+        <section>
+          <h3>Manual Install</h3>
+
+          <h4 class="blue">Bring your site up in a web browser to do the step-by-step install</h4>
+          <p class="copy--small box--small">
+            <img src="images/manual2.jpg" alt="">
+          </p>
+        </section>
 
         <section>
           <h3>Where to go from here?</h3>
