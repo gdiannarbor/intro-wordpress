@@ -25,540 +25,376 @@
   <body>
     <div class="reveal">
       <div class="slides">
+        <section>
+          <section id="beginning-slide">
+            <img src="images/gdi_logo_badge.png" class="img--bare" height="450px" />
+            <div class="box--small">
+              <h3><span class="green">Intro to Wordpress</span></h3>
+              <h4><span class="blue">Class 1</span></h4>
+            </div>
+          </section>
 
-        <section id="beginning-slide">
-          <img src="images/gdi_logo_badge.png" class="img--bare" height="450px" />
-          <div class="box--small">
-            <h3><span class="green">Intro to Wordpress</span></h3>
-            <h4><span class="blue">Class 1</span></h4>
-          </div>
+          <section>
+            <h3>Agenda</h3>
+            <h4 class="blue">In this class you will...</h4>
+            <ul class="box--small list--tall copy--small">
+              <li>Learn what WordPress is</li>
+              <li>Learn about "admin" functionality</li>
+              <li>Learn how to build out a site</li>
+            </ul>
+          </section>
         </section>
 
         <section>
-          <h3>Agenda</h3>
-          <h4 class="blue">In this class you will...</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>Learn what WordPress is</li>
-            <li>Learn how to install it</li>
-            <li>Learn administrative backend functionality</li>
-            <li>Learn how to build out a site</li>
-          </ul>
+          <section>
+            <h3>What is WordPress?</h3>
+            <h4 class="blue">Official description from WordPress.org</h4>
+            <blockquote>
+              WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.
+            </blockquote>
+          </section>
+
+          <section>
+            <h3>WordPress is</h3>
+            <h4 class="blue">Popular</h4>
+            <p class="copy--small box--small">
+              WordPress is the <a href="http://w3techs.com/technologies/overview/content_management/all" target="_blank">#1 content management system in the world (60.4% marketshare).</a>
+            </p>
+          </section>
+
+          <section>
+            <h3>WordPress is</h3>
+            <h4 class="blue">Popular</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li>WordPress is used by <a href="http://w3techs.com/technologies/overview/content_management/all" target="_blank">24%</a> of the sites on the web.</li>
+              <li>WordPress 4.2 has been <a href="http://wordpress.org/download/counter/" target="_blank">downloaded over 19,760,158 times</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>WordPress is</h3>
+            <h4 class="blue">Free, open source, web-based software</h4>
+            <p class="copy--small box--small">
+              WordPress core software is built by hundreds of community volunteers. People all around the word contribute to WordPress by either submitting bugfixes, testing, designing or writing code for the software.
+            </p>
+          </section>
+
+          <section>
+            <h3>WordPress is</h3>
+            <h4 class="blue">A website building framework</h4>
+            <p class="copy--small box--small">
+              WordPress is a platform for building and designing a website.
+            </p>
+          </section>
+
+          <section>
+            <h3>WordPress is</h3>
+            <h4 class="blue">A content management system</h4>
+            <p class="copy--small box--small">
+              WordPress allows site owners to manage their site content via an easy-to-use admin.
+            </p>
+          </section>
+
+          <section>
+            <h4>WordPress.org vs. WordPress.com</h4>
+            <ul class="box--small list--tall copy--small">
+              <li><strong>WordPress.org</strong> - Web software used to build a website on a hosting account with a domain name. Sites can be built and modified using themes, plugins or custom code</li> <br />
+
+              <li><strong>WordPress.com</strong> - A free blogging service that allows people to create a blog hosted on WordPress.com's servers. Hosting is free (although there are some for-pay add-ons), theme choices are limited, plugins can not be installed and code can not be modified</li>
+            </ul>
+
+            <a href="http://www.wpbeginner.com/beginners-guide/self-hosted-wordpress-org-vs-free-wordpress-com-infograph/?display=wide" target="_blank"><img src="img/Sign-Info.png" /></a>
+          </section>
         </section>
 
         <section>
-          <h3>What is WordPress?</h3>
-          <h4 class="blue">Official description from WordPress.org</h4>
-          <blockquote>
-            WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.
-          </blockquote>
+          <section>
+            <h3>A Tour of the Front End</h3>
+            <h4 class="blue">WordPress comes with the default theme Twenty Fifteen activated</h4>
+            <ul class="box--small list--tall copy--small">
+              <li>A sample post on the home page.</li>
+              <li>A sample page</li>
+              <li>A sample comment</li>
+              <li>A sample tag line "Just another WordPress site"</li>
+              <li>A set of sidebar widgets</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>A Tour of the Backend Admin</h3>
+            <h4 class="blue">Located at: yourdomain.com/wp-admin/ </h4>
+            <p class="copy--small box--small">
+              The admin is divided into 3 areas:
+              <ol class="box--small list--tall copy--small">
+                <li>The top menu bar</li>
+                <li>The left-hand menu used to navigate to most admin functionality</li>
+                <li>The main content window where most admin functionality is performed</li>
+              </ol>
+            </p>
+          </section>
+
+          <section>
+            <h3>A Tour of the Backend Admin</h3>
+            <h4 class="blue">Located at: yourdomain.com/wp-admin/ </h4>
+
+            <p class="copy--small box--small">
+              <strong>Tip:</strong> You can change what's displayed on an admin page by clicking on the "screen options" tab in the upper right corner.
+            </p>
+
+            <p class="copy--small box--small">
+              <strong>Another Tip:</strong> Open the front end of your site in one browser tab and the backend in another so you can easily switch between the 2 as you make changes to your site.
+            </p>
+          </section>
         </section>
 
         <section>
-          <h3>WordPress is</h3>
-          <h4 class="blue">Popular</h4>
-          <p class="copy--small box--small">
-            WordPress is the <a href="http://w3techs.com/technologies/overview/content_management/all" target="_blank">#1 content management system in the world (60.4% marketshare).</a>
-          </p>
+          <section>
+            <h3>Setting Up Your Site</h3>
+            <h4 class="blue">The Settings menu</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li><strong>General:</strong> Title, tagline, site address, date format, etc.</li>
+              <li><strong>Writing:</strong> Post-related settings</li>
+              <li><strong>Reading:</strong>  Set site home page, # of posts, rss settings and search engine visibility</li>
+              <li><strong>Discussion:</strong> Manage comment settings</li>
+              <li><strong>Media:</strong> Make default image sizes and other media settings</li>
+              <li><strong>Permalinks:</strong> Define the structure of site URLs</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Exercise time!</h3>
+            <h4 class="blue">Some tasks to get you familiar with the Settings menu and dashboard</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li>Change the name of your site</li>
+              <li>Change the "Front page" of your site to the sample page </li>
+              <li>Require users to register before posting a comment</li>
+              <li>Change the dimensions of "Large size" images</li>
+              <li>Remove the "WordPress News" from the dashboard</li>
+            </ul>
+            <p class="copy--small box--small">
+              <a href="http://e.ggtimer.com/10minutes" target="_new"><strong>10 minutes</strong></a>
+            </p>
+          </section>
         </section>
 
         <section>
-          <h3>WordPress is</h3>
-          <h4 class="blue">Popular</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li>WordPress is used by <a href="http://w3techs.com/technologies/overview/content_management/all" target="_blank">24%</a> of the sites on the web.</li>
-            <li>WordPress 4.2 has been <a href="http://wordpress.org/download/counter/" target="_blank">downloaded over 19,760,158 times</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>WordPress is</h3>
-          <h4 class="blue">Free, open source, web-based software</h4>
-          <p class="copy--small box--small">
-            WordPress core software is built by hundreds of community volunteers. People all around the word contribute to WordPress by either submitting bugfixes, testing, designing or writing code for the software.
-          </p>
-        </section>
-
-        <section>
-          <h3>WordPress is</h3>
-          <h4 class="blue">A website building framework</h4>
-          <p class="copy--small box--small">
-            WordPress is a platform for building and designing a website.
-          </p>
-        </section>
-
-        <section>
-          <h3>WordPress is</h3>
-          <h4 class="blue">A content management system</h4>
-          <p class="copy--small box--small">
-            WordPress allows site owners to manage their site content via an easy-to-use admin.
-          </p>
-        </section>
-
-        <section>
-          <h4>WordPress.org vs. WordPress.com</h4>
-          <ul class="box--small list--tall copy--small">
-            <li><strong>WordPress.org</strong> - Web software used to build a website on a hosting account with a domain name. Sites can be built and modified using themes, plugins or custom code</li> <br />
-
-            <li><strong>WordPress.com</strong> - A free blogging service that allows people to create a blog hosted on WordPress.com's servers. Hosting is free (although there are some for-pay add-ons), theme choices are limited, plugins can not be installed and code can not be modified</li>
-          </ul>
-
-          <a href="http://www.wpbeginner.com/beginners-guide/self-hosted-wordpress-org-vs-free-wordpress-com-infograph/?display=wide" target="_blank"><img src="img/Sign-Info.png" /></a>
-        </section>
-
-         <!-- <section>
-          <h3>Local Install</h3>
-
-          <h4 class="blue">Running WordPress on your computer</h4>
-          <p class="copy--small box--small">
-            If you want to design or develop for WordPress, it's wise to work on a local install.
-          </p>
-        </section>
-
-        <section>
-          <h3>Local Install</h3>
-          <h4 class="blue">What Is Needed For a Local Install</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>An environment on your computer with all the tools WordPress needs to run</li>
-            <li>A Web browser. Installation is performed step-by-step on a web browser</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Local Install</h3>
-          <h4 class="blue">Creating the environment WordPress needs (Apache, MySQL and PHP)</h4>
-          <p class="copy--small box--small">The pre-class <a href="setup.html">setup slides</a> walked you through installing a local version of Wordpress using VVV.
-        </section>
-
-        <section>
-          <h3>Installing WordPress</h3>
-          <h4 class="blue">What WordPress needs to run on a remote host</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>A hosting account running PHP version 5.2.4 or greater (recommended: PHP 5.4 or greater) and MySQL version 5.0 or greater (recommended: MySQL 5.5 or greater) </li>
-            <li>Software from WordPress.org or an install feature through a hosting account control panel</li>
-            <li>A domain name (or temporary URL provided by your host)</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Installing WordPress</h3>
-          <h4 class="blue">What Is Needed For a Control Panel Install</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>Web host needs to offer it</li>
-            <li>Access to your hosting control panel</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Control Panel Install</h3>
-          <h4 class="blue">Example: InMotionHosting with Cpanel</h4>
-          <p class="copy--small box--small">
-            <img src="images/cpanel1.jpg" alt="">
-          </p>
-        </section>
-
-        <section>
-          <h3>Control Panel Install</h3>
-          <h4 class="blue">Example: InMotionHosting with Cpanel</h4>
-          <p class="copy--small box--small">
-            <img src="images/cpanel2.jpg" alt="">
-          </p>
-        </section>
-
-        <section>
-          <h3>Control Panel Install</h3>
-          <h4 class="blue">Example: InMotionHosting with Cpanel</h4>
-          <p class="copy--small box--small">
-            <img src="images/cpanel3.jpg" alt="">
-          </p>
-        </section>
-
-        <section>
-          <h3>Control Panel Install</h3>
-          <h4 class="blue">Example: Bluehost</h4>
-          <p class="copy--small box--small">
-            <img src="images/bluehost-install-wordpress.jpg" alt="">
-            <small>Screenshot by <a href="http://amylynnandrews.com/" target="_blank">Amy Lynn Andrews</a></small>
-          </p>
-        </section>
-
-        <section>
-          <h3>Control Panel Install</h3>
-          <h4 class="blue">Example: WPEngine</h4>
-          <p class="copy--small box--small">
-            <img src="images/wpengine.jpg" alt="">
-          </p>
-        </section>
-
-
-        <section>
-          <h3>Installing WordPress</h3>
-          <h4 class="blue">What Is Needed For a Manual Install</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>Access to your hosting control panel to create a database and database user</li>
-            <li>A SFTP Program. SFTP (or FTP) is the method used to upload and download files between a computer and a hosting account</li>
-            <li>A Web browser. Installation is performed step-by-step on a web browser</li>
-          </ul>
-        </section>
-
-
-        <section>
-          <h3>Manual Install</h3>
-
-          <h4 class="blue">Upload WordPress software via SFTP to your hosting account</h4>
-          <p class="copy--small box--small">
-            <img src="images/manual1.jpg" alt="">
-          </p>
-        </section>
-
-
-        <section>
-          <h3>Manual Install</h3>
-
-          <h4 class="blue">Bring your site up in a web browser to do the step-by-step install</h4>
-          <p class="copy--small box--small">
-            <img src="images/manual2.jpg" alt="">
-          </p>
-        </section>
-
-
-        <section>
-          <h3>Security</h3>
-          <h4 class="blue">Being popular means you're a target</h4>
-          <p class="copy--small box--small">
-            It is important to take security seriously when running a site that uses a CMS.
-          </p>
-        </section>
-
-
-        <section>
-          <h3>Security</h3>
-          <h4 class="blue">During install</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>Choose a good host</li>
-            <li>Make your database table prefix unique. Don't use "wp_" or "wordpress_"</li>
-            <li>Create a new database user, don't use the default</li>
-            <li>Make your database user password strong.</li>
-            <li><strong>Do not use "admin" as a username.</strong> "admin" used to be the default WordPress username. Use a unique username and a very strong Password</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Security</h3>
-          <h4 class="blue">Ater install: WordPress hardening</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>Take some <a href="http://codex.wordpress.org/Hardening_WordPress" target="_blank">code-level and sysadmin steps</a> to "harden" WordPress</li>
-              <ul class="box--small list--tall copy--small">
-                <li>Securing wp-includes</li>
-                <li>Securing wp-config.php</li>
-                <li>Disable File Editing</li>
-                <li>And more</li>
-              </ul>
-            <li>Or use a <a href="http://wordpress.org/plugins/sucuri-scanner/" target="_blank">security plugin</a> like Sucuri that performs "1-click hardening"</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Security</h3>
-          <h4 class="blue">After your site's live: Monitoring and protection</h4>
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Keep WordPress core, themes and plugins updated!</strong></li>
-            <li>Use a security plugin</li>
-            <li>Use a service that scans and your site daily for malware</li>
-            <li>Use a firewall service that shields your site from hackers and malware. Some hosts, like WPEngine.com, have this built into their hosting service</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Security</h3>
-          <h4 class="blue">If you do get hacked</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>Use a malware removal service.</li>
-              <ul class="box--small list--tall copy--small">
-                <li><strong><a href="http://sucuri.net/" target="_blank">Sucuri.net</a></strong> Reasonably priced WordPress security experts</li>
-                <li><strong><a href="http://WPEngine.com/" target="_blank">WPEngine.com</a></strong> WordPress hosting that includes malware cleanup if needed</li>
-              </ul>
-            </li>
-          </ul>
-        </section> -->
-
-        <section>
-          <h3>A Tour of the Front End</h3>
-          <h4 class="blue">WordPress comes with the default theme Twenty Fifteen activated</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>A sample post on the home page.</li>
-            <li>A sample page</li>
-            <li>A sample comment</li>
-            <li>A sample tag line "Just another WordPress site"</li>
-            <li>A set of sidebar widgets</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>A Tour of the Backend Admin</h3>
-          <h4 class="blue">Located at: yourdomain.com/wp-admin/ </h4>
-          <p class="copy--small box--small">
-            The admin is divided into 3 areas:
-            <ol class="box--small list--tall copy--small">
-              <li>The top menu bar</li>
-              <li>The left-hand menu used to navigate to most admin functionality</li>
-              <li>The main content window where most admin functionality is performed</li>
-            </ol>
-          </p>
-        </section>
-
-        <section>
-          <h3>A Tour of the Backend Admin</h3>
-          <h4 class="blue">Located at: yourdomain.com/wp-admin/ </h4>
-
-          <p class="copy--small box--small">
-            <strong>Tip:</strong> You can change what's displayed on an admin page by clicking on the "screen options" tab in the upper right corner.
-          </p>
-
-          <p class="copy--small box--small">
-            <strong>Another Tip:</strong> Open the front end of your site in one browser tab and the backend in another so you can easily switch between the 2 as you make changes to your site.
-          </p>
-        </section>
-
-        <section>
-          <h3>Setting Up Your Site</h3>
-          <h4 class="blue">The Settings menu</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li><strong>General:</strong> Title, tagline, site address, date format, etc.</li>
-            <li><strong>Writing:</strong> Post-related settings</li>
-            <li><strong>Reading:</strong>  Set site home page, # of posts, rss settings and search engine visibility</li>
-            <li><strong>Discussion:</strong> Manage comment settings</li>
-            <li><strong>Media:</strong> Make default image sizes and other media settings</li>
-            <li><strong>Permalinks:</strong> Define the structure of site URLs</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Exercise time!</h3>
-          <h4 class="blue">Some tasks to get you familiar with the Settings menu and dashboard</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li>Change the name of your site</li>
-            <li>Change the "Front page" of your site to the sample page </li>
-            <li>Require users to register before posting a comment</li>
-            <li>Change the dimensions of "Large size" images</li>
-            <li>Remove the "WordPress News" from the dashboard</li>
-          </ul>
-          <p class="copy--small box--small">
-            <a href="http://e.ggtimer.com/10minutes" target="_new"><strong>10 minutes</strong></a>
-          </p>
-        </section>
-
-        <section>
-          <h3>Changing Site Appearance</h3>
-          <h4 class="blue">The Appearance menu</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Themes:</strong> Manage the current theme in use and other installed themes</li>
-            <li><strong>Widgets:</strong> Manage widgets you can add to site sidebars or other "widgetized" areas</li>
-            <li><strong>Menus:</strong>  Manage Custom menus</li>
-            <li><strong>Header:</strong> Manage header text and image</li>
-            <li><strong>Background:</strong> Manage background color and image</li>
-            <li><strong>Editor:</strong> Dangerous way to edit theme and plugin flies. This is disabled if you "harden" WordPress</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Exercise time!</h3>
-          <h4 class="blue">Some tasks to get you familiar with the Appearance menu</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li>Remove a few widgets and add some of your own text to the sidebar using a text widget</li>
-            <li>Add a header image</li>
-            <li>Change the background colors</li>
-          </ul>
-          <a href="http://e.ggtimer.com/10minutes" target="_blank"><strong>10 minutes</strong></a>
-        </section>
-
-        <section>
-          <h3>Adding Content</h3>
-          <h4 class="blue">Pages and Posts</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Pages:</strong> Regular static website pages with content</li>
-            <li><strong>Posts:</strong> Entries (like blog posts) that have a date, categories and tags assigned to them. They can be listed in a particular order (chronologically, alphabetically, etc.) and fed to other sites or blog readers via an RSS feed</li>
-          </ul>
-
-
-          <a href="http://www.chaostoclarity.com/how-wordpress-works-page-vs-post-infographic/" target="_blank"><img src="images/Sign-Info.png" /></a>
-        </section>
-
-        <section>
-          <h1>Let's Play</h1>
-          <h3>Is it a Page or a Post?</h3>
-        </section>
-
-        <section>
-          <h3>Is it a Page or a Post?</h3>
-
-          <ul class="box--small list--tall copy--small">
-            <li>Restaurant review</li>
-            <li>About us</li>
-            <li>One of multiple press releases</li>
-            <li>A news announcement</li>
-            <li>Terms and Conditions</li>
-            <li>Our Services</li>
-            <li>One of multiple portfolio pieces</li>
-            <li>Mission statement</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Adding Content</h3>
-          <h4 class="blue">Pages</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Page Title</strong></li>
-            <li><strong>Permalink:</strong> Manage the name of the page URL</li>
-            <li><strong>Page Content</strong></li>
-            <li><strong>Revisions:</strong> View and restore previous versions of the page</li>
-            <li><strong>Custom Fields:</strong> Additional fields (display requires theme support)</li>
-            <li><strong>Discussion:</strong> Turn comments on or off for this page</li>
-            <li><strong>Comments:</strong> Displays current page comments</li>
-            <li><strong>Slug:</strong> Manage the name of the page slug</li>
-            <li><strong>Author:</strong> Switch between post authors (display requires theme support)</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Adding Content</h3>
-          <h4 class="blue">Pages</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Publish</strong> Change publish status and visibility settings and view revisions</li>
-            <li><strong>Page Attributes:</strong> Assign a page "parent", choose template and sort order</li>
-            <li><strong>Featured Image:</strong> Assign an image to page (requires theme support)</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Adding Content</h3>
-          <h4 class="blue">Using the content editor</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Visual and Text tabs:</strong> Toggle between WYSIWYG and code view</li>
-            <li><strong>Add Media</strong> Upload pictures and other files</li>
-            <li><strong>Button Bar</strong> Use formatting and display options</li>
-            <li><strong>Embeds</strong> <a href="http://codex.wordpress.org/Embeds" target="_blank">Paste links to popular media services</a> and they will automatically display on the page<br />
-            http://vimeo.com/44141764</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Adding Content</h3>
-          <h4 class="blue">Posts</h4>
-
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Excerpt</strong> Determine an excerpt for a post (display requires theme support)</li>
-            <li><strong>Send Trackbacks:</strong> More <a href="http://codex.wordpress.org/Introduction_to_Blogging#Trackbacks" target="_blank">information on trackbacks</a></li>
-            <li><strong>Format:</strong> Choose between several post formats (display requires theme support)</li>
-            <li><strong>Categories and Tags:</strong> Assign categories and tags to allow posts to be organized by subject</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Adding Content</h3>
-          <h4 class="blue">Tip</h4>
-
-          <p class="box--small copy--small">
-            Use the bulk editor on the page or post list to make edits to multiple pages or posts at a time (like removing comments).
-          </p>
-        </section>
-
-
-        <section>
-          <h3>Exercise time!</h3>
-          <h4 class="blue">Create pages and posts for your site.</h4>
-
-          <p class="box--small copy--small">Try to include some of the following:</p>
-
-          <ul class="box--small list--tall copy--small">
-            <li>Add the Pages widget to your sidebar to navigate pages</li>
-            <li>Add pages with text and pictures</li>
-            <li>Make a page password-protected</li>
-            <li>Add posts and use different formats</li>
-            <li>Make a page a "child" of another page</li>
-            <li>Add a video to a page using an auto embed</li>
-          </ul>
-          <p class="box--small copy--small">
+          <section>
+            <h3>Changing Site Appearance</h3>
+            <h4 class="blue">The Appearance menu</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Themes:</strong> Manage the current theme in use and other installed themes</li>
+              <li><strong>Widgets:</strong> Manage widgets you can add to site sidebars or other "widgetized" areas</li>
+              <li><strong>Menus:</strong>  Manage Custom menus</li>
+              <li><strong>Header:</strong> Manage header text and image</li>
+              <li><strong>Background:</strong> Manage background color and image</li>
+              <li><strong>Editor:</strong> Dangerous way to edit theme and plugin flies. This is disabled if you "harden" WordPress</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Exercise time!</h3>
+            <h4 class="blue">Some tasks to get you familiar with the Appearance menu</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li>Remove a few widgets and add some of your own text to the sidebar using a text widget</li>
+              <li>Add a header image</li>
+              <li>Change the background colors</li>
+            </ul>
             <a href="http://e.ggtimer.com/10minutes" target="_blank"><strong>10 minutes</strong></a>
-          </p>
+          </section>
         </section>
 
         <section>
-          <h3>Managing Menus</h3>
-          <h4 class="blue">Appearance > Menus</h4>
+          <section>
+            <h3>Adding Content</h3>
+            <h4 class="blue">Pages and Posts</h4>
 
-          <p class="box--small copy--small">
-            Easily create and manage navigation menus
-          </p>
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Pages:</strong> Regular static website pages with content</li>
+              <li><strong>Posts:</strong> Entries (like blog posts) that have a date, categories and tags assigned to them. They can be listed in a particular order (chronologically, alphabetically, etc.) and fed to other sites or blog readers via an RSS feed</li>
+            </ul>
 
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Create menus:</strong> Enter a menu name and click "Create Menu"</li>
-            <li><strong>Add pages:</strong> Add existing pages, custom links or category pages</li>
-            <li><strong>Order Pages:</strong> Drag and drop your pages menu items in the desired order. Indent pages to make them children of other pages</li>
-            <li><strong>Assign Menu to Theme location:</strong> When the menu is ready, assign it to a theme location and click "Save Menu."</li>
-            <li><strong>Manage Locations Tab:</strong> Assign menus to theme locations</li>
-          </ul>
+
+            <a href="http://www.chaostoclarity.com/how-wordpress-works-page-vs-post-infographic/" target="_blank"><img src="images/Sign-Info.png" /></a>
+          </section>
+
+          <section>
+            <h1>Let's Play</h1>
+            <h3>Is it a Page or a Post?</h3>
+          </section>
+
+          <section>
+            <h3>Is it a Page or a Post?</h3>
+
+            <ul class="box--small list--tall copy--small">
+              <li>Restaurant review</li>
+              <li>About us</li>
+              <li>One of multiple press releases</li>
+              <li>A news announcement</li>
+              <li>Terms and Conditions</li>
+              <li>Our Services</li>
+              <li>One of multiple portfolio pieces</li>
+              <li>Mission statement</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Adding Content</h3>
+            <h4 class="blue">Pages</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Page Title</strong></li>
+              <li><strong>Permalink:</strong> Manage the name of the page URL</li>
+              <li><strong>Page Content</strong></li>
+              <li><strong>Revisions:</strong> View and restore previous versions of the page</li>
+              <li><strong>Custom Fields:</strong> Additional fields (display requires theme support)</li>
+              <li><strong>Discussion:</strong> Turn comments on or off for this page</li>
+              <li><strong>Comments:</strong> Displays current page comments</li>
+              <li><strong>Slug:</strong> Manage the name of the page slug</li>
+              <li><strong>Author:</strong> Switch between post authors (display requires theme support)</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Adding Content</h3>
+            <h4 class="blue">Pages</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Publish</strong> Change publish status and visibility settings and view revisions</li>
+              <li><strong>Page Attributes:</strong> Assign a page "parent", choose template and sort order</li>
+              <li><strong>Featured Image:</strong> Assign an image to page (requires theme support)</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Adding Content</h3>
+            <h4 class="blue">Using the content editor</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Visual and Text tabs:</strong> Toggle between WYSIWYG and code view</li>
+              <li><strong>Add Media</strong> Upload pictures and other files</li>
+              <li><strong>Button Bar</strong> Use formatting and display options</li>
+              <li><strong>Embeds</strong> <a href="http://codex.wordpress.org/Embeds" target="_blank">Paste links to popular media services</a> and they will automatically display on the page<br />
+              http://vimeo.com/44141764</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Adding Content</h3>
+            <h4 class="blue">Posts</h4>
+
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Excerpt</strong> Determine an excerpt for a post (display requires theme support)</li>
+              <li><strong>Send Trackbacks:</strong> More <a href="http://codex.wordpress.org/Introduction_to_Blogging#Trackbacks" target="_blank">information on trackbacks</a></li>
+              <li><strong>Format:</strong> Choose between several post formats (display requires theme support)</li>
+              <li><strong>Categories and Tags:</strong> Assign categories and tags to allow posts to be organized by subject</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Adding Content</h3>
+            <h4 class="blue">Tip</h4>
+
+            <p class="box--small copy--small">
+              Use the bulk editor on the page or post list to make edits to multiple pages or posts at a time (like removing comments).
+            </p>
+          </section>
+
+
+          <section>
+            <h3>Exercise time!</h3>
+            <h4 class="blue">Create pages and posts for your site.</h4>
+
+            <p class="box--small copy--small">Try to include some of the following:</p>
+
+            <ul class="box--small list--tall copy--small">
+              <li>Add the Pages widget to your sidebar to navigate pages</li>
+              <li>Add pages with text and pictures</li>
+              <li>Make a page password-protected</li>
+              <li>Add posts and use different formats</li>
+              <li>Make a page a "child" of another page</li>
+              <li>Add a video to a page using an auto embed</li>
+            </ul>
+            <p class="box--small copy--small">
+              <a href="http://e.ggtimer.com/10minutes" target="_blank"><strong>10 minutes</strong></a>
+            </p>
+          </section>
         </section>
 
         <section>
-          <h3>Managing Comments</h3>
-          <h4 class="blue">The Comments menu</h4>
+          <section>
+            <h3>Managing Menus</h3>
+            <h4 class="blue">Appearance > Menus</h4>
 
-          <p class="box--small copy--small">
-            View, approve, delete and mark comments as spam.
-          </p>
-        </section>
+            <p class="box--small copy--small">
+              Easily create and manage navigation menus
+            </p>
 
-        <section>
-          <h3>Managing Media</h3>
-          <h4 class="blue">The Media menu</h4>
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Create menus:</strong> Enter a menu name and click "Create Menu"</li>
+              <li><strong>Add pages:</strong> Add existing pages, custom links or category pages</li>
+              <li><strong>Order Pages:</strong> Drag and drop your pages menu items in the desired order. Indent pages to make them children of other pages</li>
+              <li><strong>Assign Menu to Theme location:</strong> When the menu is ready, assign it to a theme location and click "Save Menu."</li>
+              <li><strong>Manage Locations Tab:</strong> Assign menus to theme locations</li>
+            </ul>
+          </section>
 
-          <p class="box--small copy--small">
-            View all files that have been uploaded to the site via the content editor. Add, edit and delete files.
-          </p>
-        </section>
+          <section>
+            <h3>Managing Comments</h3>
+            <h4 class="blue">The Comments menu</h4>
 
-        <section>
-          <h3>Managing Users</h3>
-          <h4 class="blue">The Users menu</h4>
+            <p class="box--small copy--small">
+              View, approve, delete and mark comments as spam.
+            </p>
+          </section>
 
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Manage existing users:</strong> Edit all user data or delete users</li>
-            <li><strong>Add new users:</strong> Assign new users to site</li>
-            <li><strong>Your Profile:</strong> Edit your own profile settings</li>
-          </ul>
-        </section>
+          <section>
+            <h3>Managing Media</h3>
+            <h4 class="blue">The Media menu</h4>
 
-        <section>
-          <h3>Managing Users</h3>
-          <h4 class="blue">User roles</h4>
+            <p class="box--small copy--small">
+              View all files that have been uploaded to the site via the content editor. Add, edit and delete files.
+            </p>
+          </section>
 
-          <p class="box--small copy--small">
-            Users can be given <a href="http://codex.wordpress.org/Roles_and_Capabilities" target="_blank">certain levels of editing privileges</a>.
-          </p>
+          <section>
+            <h3>Managing Users</h3>
+            <h4 class="blue">The Users menu</h4>
 
-          <ul class="box--small list--tall copy--small">
-            <li><strong>Administrator:</strong> access to all the administration features within a single site</li>
-            <li><strong>Editor:</strong> ability to publish and manage posts including the posts of other users</li>
-            <li><strong>Author:</strong> ability to publish and manage their own posts</li>
-            <li><strong>Contributor:</strong> ability to write and manage their own posts but cannot publish them</li>
-            <li><strong>Subscriber:</strong> ability to only manage their profile</li>
-          </ul>
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Manage existing users:</strong> Edit all user data or delete users</li>
+              <li><strong>Add new users:</strong> Assign new users to site</li>
+              <li><strong>Your Profile:</strong> Edit your own profile settings</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Managing Users</h3>
+            <h4 class="blue">User roles</h4>
+
+            <p class="box--small copy--small">
+              Users can be given <a href="http://codex.wordpress.org/Roles_and_Capabilities" target="_blank">certain levels of editing privileges</a>.
+            </p>
+
+            <ul class="box--small list--tall copy--small">
+              <li><strong>Administrator:</strong> access to all the administration features within a single site</li>
+              <li><strong>Editor:</strong> ability to publish and manage posts including the posts of other users</li>
+              <li><strong>Author:</strong> ability to publish and manage their own posts</li>
+              <li><strong>Contributor:</strong> ability to write and manage their own posts but cannot publish them</li>
+              <li><strong>Subscriber:</strong> ability to only manage their profile</li>
+            </ul>
+          </section>
         </section>
 
         <section>
           <img src="images/gdi_logo_badge.png" class="img--bare" height="450px" />
           <div class="box--small">
             <h3><span class="green">Intro to Wordpress</span></h3>
-            <h4><span class="blue">Class 1</span></h4>
+            <h4><a href="class2.html">Class 2 &raquo;</a></h4>
           </div>
         </section>
 
