@@ -64,49 +64,74 @@
         </section> -->
 
         <section>
-          <h3>What we will cover today</h3>
+          <h3>What we'll be covering</h3>
           <ul class="list--xtall box--small copy--small">
+            <li>"Local" WordPress Installations &amp; Virtualization</li>
             <li>Installing VVV (Varying Vagrant Vagrants)</li>
             <li>Installing optional add-ons for VVV</li>
           </ul>
         </section>
 
         <section>
-          <h3>Local Install</h3>
-
-          <h4 class="blue">Running WordPress on your computer</h4>
-          <p class="copy--small box--small">
-            If you want to design or develop for WordPress, it's wise to work on a local install.
-          </p>
+          <h3>Get Stuck?</h3>
+          <p class="box copy--small">Message us in the <a href="https://gdiaa.slack.com/messages/0915-wordpress/">#0915-wordpress</a> Slack channel.<br/><small>Request a Slack invite here: <a href="https://gdiaa-slack.herokuapp.com/" target="_blank">https://gdiaa-slack.herokuapp.com/</a></small></p>
         </section>
 
         <section>
-          <h3>Local Install</h3>
-          <h4 class="blue">What Is Needed For a Local Install</h4>
-          <ul class="box--small list--tall copy--small">
-            <li>An environment on your computer with all the tools WordPress needs to run</li>
-            <li>A Web browser. Installation is performed step-by-step on a web browser</li>
+          <h3>"Local" Installation</h3>
+
+          <p class="box copy--small">In the world of web developerment, <span class="blue">running a website "locally"</span> means <span class="green">running it on your personal computer</span>.<br/><span style="opacity: .7; font-size: 18px;">(This is in contrast to hosting a website on a remote server, accessible only via the internet.)</span></p>
+
+          <p class="box copy--small">Local environments are important because they allow us to work directly with our code and make changes more easily, faster, and <b>without any internet connection at all</b>.</p>
+
+          <p class="copy--small">If you want to design or develop for WordPress,<br/>it's wise to work on a local install.</p>
+        </section>
+
+        <section>
+          <h3>Local WordPress Installation</h3>
+          <p class="box copy--small">So what do we need to get WordPress running locally?</p>
+          <ul class="list--xtall copy--small">
+            <li>An <span class="green"><i>environment</i> on your computer</span> with all the tools that WordPress needs to function.</li>
+            <li>A <span class="green">web browser</span>. WordPress is configured and content is managed via the browser.</li>
           </ul>
         </section>
 
         <section>
-          <h3>Local Install</h3>
-          <h4 class="blue">Creating the environment WordPress needs (Apache, MySQL and PHP)</h4>
-          <p class="copy--small box--small">We'll be using VVV to do that today.</p>
+          <h3>Setting Up a WordPress-Ready Development Environment</h3>
+          <p class="copy--small box">When we say we need an "environment" with all the tools that WordPress needs to function, we're talking about:</p>
+          <ul class="list--tall copy--small">
+            <li><span class="green">Apache</span><br/><span class="copy--small">An open source web server that processes web requests.</span></li>
+            <li><span class="green">MySQL</span><br/><span class="copy--small">An open source database for storing content and other data.</span></li>
+            <li><span class="green">PHP</span><br/><span class="copy--small">An open source programming language for building out websites.</span></li>
+          </ul>
+          <p class="copy--small box">We'll be using Vagrant to setup this local environment.</p>
         </section>
 
         <section>
           <h3>But first...</h3>
           <h4 class="blue">Terminal Basics</h4>
-          <p class="copy--small box--small">Local development usually requires some basic understanding of Terminal and Command Line.</p>
-          <p class="copy--small box--small">If this is your first time using Terminal, you might want to take a look at our <a href="http://www.gdiannarbor.com/events/intro-terminal/#/" target="_blank">Intro to Terminal</a> slides.
+          <p class="copy--small box--small">Setting up development environments usually requires some basic understanding of the <span class="green">terminal</span> and <span class="green">command line</span>.</p>
+          <p class="copy--small box--small">If this is your first time using a terminal,<br/>you might want to review our <a href="http://www.gdiannarbor.com/events/intro-terminal/#/" target="_blank">Intro to Terminal</a> slides.
+        </section>
+
+        <section>
+          <h3>Vagrant &amp; Virtualization</h3>
+          <p class="copy--small box">We <i>could</i> install Apache, MySQL, PHP, WordPress, and all of their depencies one-by-one on our machines - but this is time consuming, delicate, and has a steep learning curve.</p>
+          <p class="copy--small box"><b>Vagrant</b> is a tool that allows us to quickly, and repeatedly, create a <i>"virtual"</i> environment - a complete operating system, running within another operating system - that includes all the tools we need.</p>
+          <p class="copy--small box">"It allows you, or someone else, to specify in plain text how the machine’s virtual hardware should be configured and what should be installed on it. It also makes it insanely easy to get the code on the server. You check out your project, type <code>vagrant up</code> and start work." <small><a href="https://24ways.org/2014/what-is-vagrant-and-why-should-i-care/" target="_blank">[source]</a></small></p>
+        </section>
+
+        <section>
+          <h3>Varying Vagrant Vagrants</h3>
+          <p class="copy--small box">Varying Vagrant Vagrants is an open source Vagrant configuration focused on WordPress development.</p>
+          <p class="copy--small box">Setting up VVV creates your virtual environment along with all the tools you'll need to run WordPress: Apache, MySQL, PHP, WordPress itself, and all of the libraries these systems depend on.</p>
         </section>
 
         <!-- Part 1: Installing VVV, 30 minutes -->
         <section>
           <h3>Installing VVV</h3>
           <p class="copy--small box">Varying Vagrant Vagrants has a step-by-step<br/>setup guide that we'll be following.</p>
-          <p class="copy--small box"><a target="_blank" href="https://github.com/Varying-Vagrant-Vagrants/VVV#the-first-vagrant-up" alt="VVV Github Home">VVV Setup Instructions</a></p>
+          <p class="copy--small box"><a target="_blank" href="https://github.com/Varying-Vagrant-Vagrants/VVV#the-first-vagrant-up" alt="VVV Github Home">Setup Instructions</a></p>
           <ul class="list--tall copy--xsmall">
               <li>Work through the instructions for your operating system.</li>
               <li>If you get stuck or lost, get help in our <a href="https://gdiaa.slack.com/messages/0915-wordpress/">#0915-wordpress</a> Slack channel.<br/><small>Request a Slack invite here: <a href="https://gdiaa-slack.herokuapp.com/" target="_blank">https://gdiaa-slack.herokuapp.com/</a></small></li>
@@ -133,8 +158,8 @@
         </section>
 
         <section>
-        <h3>Questions?</h3>
-        <p class="box copy--small">Message us in the <a href="https://gdiaa.slack.com/messages/0915-wordpress/">#0915-wordpress</a> Slack channel.<br/><small>Request a Slack invite here: <a href="https://gdiaa-slack.herokuapp.com/" target="_blank">https://gdiaa-slack.herokuapp.com/</a></small></p>
+          <h3>Questions?</h3>
+          <p class="box copy--small">Message us in the <a href="https://gdiaa.slack.com/messages/0915-wordpress/">#0915-wordpress</a> Slack channel.<br/><small>Request a Slack invite here: <a href="https://gdiaa-slack.herokuapp.com/" target="_blank">https://gdiaa-slack.herokuapp.com/</a></small></p>
         </section>
 
         <section>
